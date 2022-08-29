@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TESTE</title>
+    <link rel="stylesheet" href="tst.css">
+</head>
+
+<body>
+
+
+    <div class="mgr">
+        <div class="fora">
+
+            <div class="den">
+                <div class="form">
+
+                    <img src="ali.png" alt="" srcset="">
+                    <h2>-- PREÇOS --</h2>
+
+
+                    <h3>Preços dos Medicamentos</h3>
+                    <div class="linha">
+                        <div class="nome">Soro fisiológico (unidade):</div>
+                        <div class="preco">R$07,00</div>
+                    </div>
+
+                    <div class="linha">
+                        <div class="nome">Gases (pacote):</div>
+                        <div class="preco">R$03,00</div>
+                    </div>
+
+                    <div class="linha">
+                        <div class="nome">Micropore (unidade):</div>
+                        <div class="preco">R$06,00</div>
+                    </div>
+
+                    <div class="linha">
+                        <div class="nome">Antisséptico Merthiolate (unidade):</div>
+                        <div class="preco">R$15,00</div>
+                    </div>
+                    
+                    <div class="linha">
+                        <div class="nome">Fita Glicêmica (unidade):</div>
+                        <div class="preco">R$10,00</div>
+                    </div>
+
+                    <div class="linha">
+                        <div class="nome">Medicação Losartana (caixa):</div>
+                        <div class="preco">R$12,00</div>
+                    </div>
+
+                    <div class="linha">
+                        <div class="nome">Citon Pios 5000 (ampola):</div>
+                        <div class="preco">R$25,00</div>
+                    </div>
+
+                    <div class="linha">
+                        <div class="nome">Aplicação com Seringa (unidade):</div>
+                        <div class="preco">R$15,00</div>
+                    </div>
+
+                    <h3>ATENDIMENTO</h3>
+                    <div class="linha">
+                        <div class="nome">Atendimento Especializado Individual:</div>
+                        <div class="preco">R$200,00</div>
+                    </div>
+
+                    <h3>Taxa sobre a Quilometragem</h3>
+                    <div class="linha">
+                        <div class="nome">Quilômetro:</div>
+                        <div class="preco">R$01,80</div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="den">
+                <form class="form" name="_form" action="#" method="get">
+
+                    <img src="ali.png" alt="" srcset="">
+                    <h2>-- CALCULAR VALOR --</h2>
+
+
+                    <!-- PARA POSSÍVEIS MEDICAMENTOS SOLICITADOS -->
+                    <label for="_form">
+                        <h3>Medicamentos</h3>
+                    </label>
+
+
+
+                    <div class="inpt">
+                        <div class="med">
+                            <input class="chk" type="checkbox" name="med_1">
+                            Soro fisiológico
+                        </div>
+
+                        <div class="qnt">
+                            <input class="num" type="number" name="f_med1" min=0><br>
+                        </div>
+                    </div>
+
+
+                    <div class="inpt">
+                        <div class="med">
+                            <input class="chk" type="checkbox" name="med_2">
+                            Gases
+                        </div>
+                        <div class="qnt">
+                            <input class="num" type="number" name="f_med2" min=0><br>
+                        </div>
+                    </div>
+
+                    <div class="inpt">
+                        <div class="med">
+                            <input class="chk" type="checkbox" name="med_3">
+                            Micropore
+                        </div>
+                        <div class="qnt">
+                            <input class="num" type="number" name="f_med3" min=0><br>
+                        </div>
+                    </div>
+
+                    <div class="inpt">
+                        <div class="med">
+                            <input class="chk" type="checkbox" name="med_4">
+                            Antisséptico Merthiolate
+                        </div>
+                        <div class="qnt">
+                            <input class="num" type="number" name="f_med4" min=0><br>
+                        </div>
+                    </div>
+
+                    <div class="inpt">
+                        <div class="med">
+                            <input class="chk" type="checkbox" name="med_5">
+                            Fita Glicêmica
+                        </div>
+                        <div class="qnt">
+                            <input class="num" type="number" name="f_med5" min=0><br>
+                        </div>
+                    </div>
+
+                    <div class="inpt">
+                        <div class="med">
+                            <input class="chk" type="checkbox" name="med_6">
+                            Medicação Losartana
+                        </div>
+                        <div class="qnt">
+                            <input class="num" type="number" name="f_med6" min=0><br>
+                        </div>
+                    </div>
+
+                    <div class="inpt">
+                        <div class="med">
+                            <input class="chk" type="checkbox" name="med_7">
+                            Citon Pios 5000
+                        </div>
+                        <div class="qnt">
+                            <input class="num" type="number" name="f_med7" min=0><br>
+                        </div>
+                    </div>
+
+                    <div class="inpt">
+                        <div class="med">
+                            <input class="chk" type="checkbox" name="med_8">
+                            Aplicação com Seringa
+                        </div>
+                        <div class="qnt">
+                            <input class="num" type="number" name="f_med8" min=0><br>
+                        </div>
+                    </div>
+
+                    <!-- PARA ATENDIMENTO FARMACÊUTICO ESPECIALIZADO -->
+                    <label for="_form">
+                        <h3>Solicitar Atendimento Especializado?</h3>
+                    </label>
+                    <div class="inpt2">
+                        <div class="med2"><input type="radio" name="_atend" value="sim">
+                            <div class="esp">Sim</div>
+                        </div>
+                        <div class="med2"><input type="radio" name="_atend" value="nao" checked>
+                            <div class="esp">Não</div>
+                        </div>
+                    </div>
+
+                    <!-- PARA CAUCULAR E ADICIONAR O VALOOR DA DISTÂNCIA -->
+                    <label for="_form">
+                        <h3>Confirme seu endereço:</h3>
+                    </label>
+
+                    <table>
+                        <tr>
+                            <th><label for="_form">Rua:</label></th>
+                            <td><input type="text" name="rua" id="edr"></td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <th><label for="_form">Bairro:</label></th>
+                            <td><input type="text" name="bairro" id="edr"></td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <th><label for="_form">Cidade:</label></th>
+                            <td><input type="text" name="cidade" id="edr"><br></td>
+                        </tr>
+                    </table>
+
+                    </table>
+
+                    <!-- ENVIAR FORMULÁRIO -->
+                    <div class="sbm">
+                        <input type="submit" value="Calcular">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
